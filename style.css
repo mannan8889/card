@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: grid;
+    place-items: center;
+}
+
+.atm-card{
+    width: 300px;
+    height: 170px;
+    background-image: linear-gradient(rgb(6, 6, 23),
+    rgb(23, 157, 241), rgb(154, 203, 222));
+    border-radius: 10px;
+}
+
+.logo-card{
+    display: flex;
+    justify-content: end;
+
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.logo{
+    color: #fff;
+    padding: 20px;
+}
+.micro{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 40px;
+    
+}
+
+.chip{
+    width: 40px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 7px;
+}
+
+.arrow i{
+    position: absolute;
+    color: orangered;
+    margin: -30px;
+    margin-top: -21px;
+}
+
+.details{
+    margin-left: 40px;
+}
+
+.date{
+    font-size: 12px;
+}
+
+.RuPay{
+    font-size: large;
+    color: rgb(254, 243, 243);
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+}
+
+.fa-caret-right{
+    color: orangered;
+}
